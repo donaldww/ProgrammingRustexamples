@@ -1,5 +1,5 @@
 // #![warn(rust_2018_idioms)]
-#![allow(elided_lifetimes_in_paths)]
+// #![allow(elided_lifetimes_in_paths)]
 
 fn gcd(mut n: u64, mut m: u64) -> u64 {
     assert!(n != 0 && m != 0);
